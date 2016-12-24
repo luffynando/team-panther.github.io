@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- Script que maneja el movimiento del titulo en el navegador -->
+  <script>
+	//<![CDATA[
+	var txt=" TEAM PANTHER - Alabando a EFRAN ";
+	var espera=1000;
+	var refresco=null;
+	function rotulo_title() {
+	document.title=txt;
+	txt=txt.substring(1,txt.length)+txt.charAt(0);
+	refresco=setTimeout("rotulo_title()",espera);}
+	rotulo_title();
+	//]]>
+	</script>
+
+  <meta name="description" content="Aqui una breve descripcion del sitio XD">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- Icono -->
+  <link rel="icon" type="image/png" href="img/favicon.ico">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700i" rel="stylesheet" type='text/css'>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="utils/bootstrap/dist/css/bootstrap.min.css" />
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="utils/font-awesome/css/font-awesome.min.css">
+
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" type="text/css" href="utils/owl.carousel/dist/assets/owl.carousel.min.css" />
+
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="utils/magnific-popup/dist/magnific-popup.css" />
+  
+  <!-- Framework -->
+  <link rel="stylesheet" type="text/css" href="utils/framework/css/framework.min.css" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" type="text/css" href="css/custom.css" />
+
+</head>
+
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar-redhawk navbar navbar-default navbar-fixed-top navbar-small">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="off-canvas" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Navegacion >v</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index2.html">
+          <img src="img/logo.png" alt="">
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a data-scroll href="index2.html#Acerca">¿QUIÉNES SOMOS?</a>
+          </li>
+		  <li>
+            <a data-scroll href="index2.html#TELÉFONOS EN DESARROLLO ACTUAL">TELÉFONOS EN DESARROLLO ACTUAL</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- /Navbar -->
+
+
+  <!-- Main Content -->
+  <section class="content-wrap">
+
+    <!-- Banner -->
+    <section class="redhawk-banner banner-top big redhawk-banner-parallax">
+      <div class="image" style="background-image: url('img/banner.png')">
+      </div>
+    </section>
+    <!-- /Banner --> 
+      <!-- About -->
+      <h2 class="container h1" id="Acerca">¿QUIÉNES SOMOS?</h2>
+      <section class="container">
+        <p class="lead">Somos un equipo de desarrollo Android dispuesto a trabajar y apostar por dispositivos gama baja o poco reconocidos dando desarrollo en Kernel, Recovery y Roms..</p>
+        <br>
+		<div class="row">
+          <div class="col-md-8 col-md-offset-2">
+		<div class="responsive-embed responsive-embed-16x9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/h9tJ57Qao_Y" frameborder="0" allowfullscreen></iframe>
+            </div>
+		          </div>
+        </div>
+      </section>
+      <!-- /About -->
+      <!-- Lista de telefonos -->
+	  <h2 class="container h1" id="TELÉFONOS EN DESARROLLO ACTUAL">TELÉFONOS EN DESARROLLO ACTUAL</h2>
+	   <div class="container redhawk-news mb-60">
+     <div class="col-md-10">
+
+        <!-- Telefono 1 -->
+        <div class="news-one">
+          <div class="row vertical-gutter">
+            <div class="col-md-4">
+              <a href="#" class="angled-img">
+                <div class="img">
+                  <img src="img/huawei-y530.png" alt="Huawei y530">
+                </div>
+              </a>
+            </div>
+            <div class="col-md-8">
+              <div class="clearfix">
+                <h3 class="h2 pull-left m-0"><a href="#">Huawei Y530</a></h3>
+                <span class="date pull-right"><i class="fa fa-calendar"></i> Diciembre 23, 2016</span>
+              </div>
+              <div class="description">
+                <p>
+                  Con una pantalla de 4,5 pulgadas, 854 x 480 píxeles táctil que soporta hasta 16 millones de colores, el Ascend Y530 hace que todo parezca más brillante y más vivo.
+                </p>
+                <p>
+                  Impulsado por un doble núcleo de 1.2 GHz procesador Qualcomm SnapdragonTM, el Ascend Y530 le ofrece rápida velocidad de procesamiento para que pueda manejar múltiples aplicaciones sin disminuir la velocidad.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Telefono 1 -->
+
+        <!-- Telefono 2 -->
+        <div class="news-one">
+          <div class="row vertical-gutter">
+            <div class="col-md-4">
+              <a href="#" class="angled-img">
+                <div class="img">
+                  <img src="img/huawei-g630.png" alt="">
+                </div>
+              </a>
+            </div>
+            <div class="col-md-8">
+              <div class="clearfix">
+                <h3 class="h2 pull-left m-0"><a href="#">Huawei G630</a></h3>
+                <span class="date pull-right"><i class="fa fa-calendar"></i> Diciembre 23, 2016</span>
+              </div>
+              <div class="description">
+			   <p>
+               Ahora puedes agregar más pixeles, precisión y tecnología para todo lo que ves. La potente pantalla de 5 "HD no sólo viene con una pantalla de 294 ppi, sino un cuerpo delgado 7,8 mm que se ve y se siente impresionante.
+               </p>
+			   <p>
+			   Con una cámara trasera de 8 megapíxeles junto con un filtro de vidrio azul y una gran apertura 2.0 que captura más luz, más brillo e imágenes más vívidas y claras. En todo momento. Basta con apuntar y disparar.
+			   </p>
+			  </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Telefono 2 -->
+
+        <!-- Telefono 3 -->
+        <div class="news-one">
+          <div class="row vertical-gutter">
+            <div class="col-md-4">
+              <a href="#" class="angled-img">
+                <div class="img">
+                  <img src="img/huawei-y6.png" alt="">
+                </div>
+              </a>
+            </div>
+            <div class="col-md-8">
+              <div class="clearfix">
+                <h3 class="h2 pull-left m-0"><a href="#">Huawei y6</a></h3>
+                <span class="date pull-right"><i class="fa fa-calendar"></i> Diciembre 23, 2016</span>
+              </div>
+              <div class="description">
+                <p>
+				Con su cuerpo clásico y compacto, el Huawei Y6 no solo representa ergonomía y un fácil uso, sino una apariencia estilizada y a la moda.
+				</p>
+				<p>
+				La pantalla HD de 5 pulgadas representa el 72% del tamaño del Huawei Y6. Con colores brillantes y un contraste realista, este Smartphone es un placer de ver.
+				</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Telefono 3 -->
+
+        <!-- Telefono 4 -->
+        <div class="news-one">
+          <div class="row vertical-gutter">
+            <div class="col-md-4">
+              <a href="#" class="angled-img">
+                <div class="img">
+                  <img src="img/huawei-g-play-mini.jpg" alt="">
+                </div>
+              </a>
+            </div>
+            <div class="col-md-8">
+              <div class="clearfix">
+                <h3 class="h2 pull-left m-0"><a href="#">Huawei G Play Mini</a></h3>
+                <span class="date pull-right"><i class="fa fa-calendar"></i> Diciembre 23, 2016</span>
+              </div>
+              <div class="description">
+                <p>
+                  Huawei G Play mini representa una nueva visión en diseño de smartphones, donde cada detalle en el diseño y funcionalidad fue creado para proveer una experiencia superior. La pantalla de 5.0 pulgadas se eleva sobre el marco, mejorando la apariencia y los ángulos de visión.
+                </p>
+                <p>
+                  El G Play mini tiene un procesador octa-core de 1,2 GHz. Esto significa más poder, incluso para los juegos más intensos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Telefono 4-->
+		
+		<!-- Telefono 5 -->
+        <div class="news-one">
+          <div class="row vertical-gutter">
+            <div class="col-md-4">
+              <a href="#" class="angled-img">
+                <div class="img">
+                  <img src="img/lanix-l900.png" alt="">
+                </div>
+              </a>
+            </div>
+            <div class="col-md-8">
+              <div class="clearfix">
+                <h3 class="h2 pull-left m-0"><a href="#">Lanix L900</a></h3>
+                <span class="date pull-right"><i class="fa fa-calendar"></i> Diciembre 23, 2016</span>
+              </div>
+              <div class="description">
+                <p>
+                  El Ilium L900 cuenta con una pantalla de 5.1 pulgadas IPS con tecnología Full Lamination -una completa protección- en alta definición, además está protegida por Corning Gorilla Glass 3, es quizá la mayor mejora y el gran salto que ofrece Lanix en el dispositivo, no solamente aumentando la resolución en pantalla, sino protegiéndola ante rayones y posibles caídas.
+                </p>
+                <p>
+                  En su interior encontramos un procesador Qualcomm Snapdragon 410 de cuatro núcleos moviéndose a 1.2GHz y acompañado de 1GB en memoria RAM.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Telefono 5-->
+      </div>
+	  </div>
+      <!-- /Lista de telefonos -->
+
+    <!-- Footer -->
+    <footer class="redhawk-footer-parallax">
+      <div class="wrapper" style="background-image: url('assets/images/footer-bg.jpg')">
+
+        <!-- Social Buttons -->
+		<!--
+        <div class="social">
+          <div class="container">
+            <h3>Connect socially with <strong>redhawk</strong></h3>
+
+            <div class="social-icons">
+              <div class="social-icon">
+                <a href="#!">
+                  <i class="fa fa-facebook-square"></i>
+                  <span>Like on Facebook</span>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="#!">
+                  <i class="fa fa-twitter-square"></i>
+                  <span>Follow on Twitter</span>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="#!">
+                  <i class="fa fa-twitch"></i>
+                  <span>Watch on Twitch</span>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="#!">
+                  <i class="fa fa-youtube-square"></i>
+                  <span>Watch on Youtube</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Social Buttons -->
+
+        <!-- Copyright -->
+        <div class="copyright">
+          <div class="container">
+            <strong>TEAM PANTHER</strong> &copy; 2016. Powered by Luffynando
+          </div>
+        </div>
+        <!-- /Copyright -->
+
+      </div>
+	  <i class="ir-arriba fa fa-chevron-up" aria-hidden="true"></i>
+    </footer>
+    <!-- /Footer -->
+
+  </section>
+  <!-- /Main Content -->
+
+  <!-- Bootstrap -->
+  <script type="text/javascript" src="utils/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- Jarallax -->
+  <script type="text/javascript" src="utils/jarallax/dist/jarallax.min.js"></script>
+
+  <!-- Smooth Scroll -->
+  <script type="text/javascript" src="utils/smoothscroll-for-websites/dist/js/smooth-scroll.js"></script>
+
+  <!-- Owl Carousel -->
+  <script type="text/javascript" src="utils/owl.carousel/dist/owl.carousel.min.js"></script>
+  
+  <!-- Magnific Popup -->
+  <script type="text/javascript" src=".utils/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+  
+  <!-- JavaScript -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+ 
+	$('.ir-arriba').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 300);
+	});
+ 
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 0 ){
+			$('.ir-arriba').slideDown(300);
+		} else {
+			$('.ir-arriba').slideUp(300);
+		}
+	});
+ 
+});
+	</script>
+
+</body>
+</html>
