@@ -1,0 +1,40 @@
+/**
+ *
+ * Ingresar aqui los custom styles :v
+ *
+ */
+
+
+/* Fondo del sitio :v tambien se puede solo un color o degradado */
+body:after {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+	background-color: #030104;
+    background-size: cover;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: -1;
+}
+.content-wrap {
+    background: rgba(17, 3, 17, 0.9);
+}
+
+/* Boxed container */
+.content-wrap {
+    max-width: 1240px;
+}
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#263238;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
