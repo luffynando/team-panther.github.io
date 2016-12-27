@@ -13,14 +13,14 @@ body:after {
     top: 0;
     right: 0;
     bottom: 0;
-	background-color: #030104;
+	background-color: #040205;
     background-size: cover;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     z-index: -1;
 }
 .content-wrap {
-    background: rgba(17, 3, 17, 0.9);
+    background: rgba(4, 2, 5, 0.9);
 }
 
 /* Boxed container */
@@ -37,4 +37,9 @@ body:after {
 	position: fixed;
 	bottom:20px;
 	right:20px;
+}
+
+.close-custom{
+    font-family:'Roboto Condensed', sans-serif;
+    color:#fff
 }

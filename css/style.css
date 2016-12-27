@@ -2,8 +2,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-linear-gradient(bottom left, #030104 10%, #030104 65%, #030104 125%);
-  background: linear-gradient(to top right, #030104 10%, #030104 65%, #030104 125%);
+  background: -webkit-linear-gradient(bottom left, #040205 10%, #040205 65%, #040205 125%);
+  background: linear-gradient(to top right, #040205 10%, #040205 65%, #040205 125%);
   bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,6 +17,15 @@
   top: 0;
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
+}
+
+div img {
+  position: absolute;
+  width:100%;
+  max-width: 600px;
+  top: 5px;
+  left: 50%;
+  margin-left: -300px;
 }
 
 #phrase_box {
