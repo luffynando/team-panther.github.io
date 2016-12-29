@@ -51,7 +51,7 @@
 
 <body>
 
-  <!-- Navbar -->
+  <!-- Navbar-->
   <nav data-scroll-header class="navbar-redhawk navbar navbar-default navbar-fixed-top navbar-small">
     <div class="container">
       <div class="navbar-header">
@@ -311,6 +311,9 @@
   <!-- Magnific Popup -->
   <script type="text/javascript" src="utils/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
 
+  <!--Framework -->
+  <script type="text/javascript" src="utils/framework/js/framework.min.js"></script>
+
   <script>
       smoothScroll.init({
           selectorHeader: '[data-scroll-header]'
@@ -337,6 +340,23 @@
  
 });
 	</script>
+
+<script>
+
+    if(typeof redhawk !== 'undefined') {
+        redhawk.init({
+            // Habilitar parallax
+            parallax:         true,
+
+            // Configurar nav bar en peque;o
+            navbarSmall:      false,
+
+            // habilitar efecto face entre paginas
+            fadeBetweenPages: true
+        });
+    }
+
+</script>
 
 </body>
 </html>

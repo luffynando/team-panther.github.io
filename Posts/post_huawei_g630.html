@@ -190,23 +190,12 @@ Recovery twrp 3.0.0">
         <!-- Right Side -->
         <div class="col-md-3">
 
-            <!-- Side Categories -->
+            <!-- Espacio Troll -->
             <div class="side-block">
-                <h4 class="block-title">Categorias</h4>
-                <ul class="block-content">
-                    <li><a href="#!">Todos</a>
-                    </li>
-                    <li><a href="#!">LuffyPro</a>
-                    </li>
-                    <li><a href="#!">Huawei</a>
-                    </li>
-                    <li><a href="#!">Testing</a>
-                    </li>
-                    <li><a href="#!">Recovery</a>
-                    </li>
-                </ul>
+                <h4 class="block-title">Troll</h4>
+                <img src="../img/tacos-everywhere.jpg" alt="">
             </div>
-            <!-- /Side Categories -->
+            <!-- /Espacio Troll -->
 
             <!-- Api facebook -->
             <div class="side-block">
@@ -223,41 +212,6 @@ Recovery twrp 3.0.0">
     <!-- Footer -->
     <footer class="redhawk-footer-parallax">
         <div class="wrapper" style="background-image: url('../img/footer-image.jpg')">
-
-            <!-- Social Buttons -->
-            <!--<div class="social">
-              <div class="container">
-                <h3>Connect socially with <strong>facebook</strong></h3>
-
-                <div class="social-icons">
-                  <div class="social-icon">
-                    <a href="#!">
-                      <i class="fa fa-facebook-square"></i>
-                      <span>Like on facebook</span>
-                    </a>
-                  </div>
-                  <div class="social-icon">
-                    <a href="#!">
-                      <i class="fa fa-twitter-square"></i>
-                      <span>Follow on Twitter</span>
-                    </a>
-                  </div>
-                  <div class="social-icon">
-                    <a href="#!">
-                      <i class="fa fa-twitch"></i>
-                      <span>Watch on Twitch</span>
-                    </a>
-                  </div>
-                  <div class="social-icon">
-                    <a href="#!">
-                      <i class="fa fa-youtube-square"></i>
-                      <span>Watch on Youtube</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- /Social Buttons -->
 
             <!-- Copyright -->
             <div class="copyright">
@@ -294,6 +248,9 @@ Recovery twrp 3.0.0">
 <!-- Magnific Popup -->
 <script type="text/javascript" src="../utils/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
 
+<!--Framework -->
+<script type="text/javascript" src="../utils/framework/js/framework.min.js"></script>
+
 <script>
     $(document).ready(function(){
 
@@ -328,6 +285,24 @@ Recovery twrp 3.0.0">
     js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8&appId=1169556019774056";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+<script>
+
+    if(typeof redhawk !== 'undefined') {
+        redhawk.init({
+            // Habilitar parallax
+            parallax:         true,
+
+            // Configurar nav bar en peque;o
+            navbarSmall:      false,
+
+            // habilitar efecto face entre paginas
+            fadeBetweenPages: true
+        });
+    }
+
+</script>
+
 
 <!-- Social Likes -->
 <script type="text/javascript" src="../utils/social-likes/dist/social-likes.min.js"></script>
